@@ -1,0 +1,25 @@
+.imageContainer {
+  background-color: lightgray;
+}
+.reviews {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.4rem;
+}
+.reviewContainer {
+  text-align: left;
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+  padding: 0.4rem;
+  margin-bottom: 0.4rem;
+  /* margin: 0.4rem; */
+}
+.image {
+}
+.lastContainer {
+  margin: 1rem 1rem;
+}
+.back {
+  cursor: pointer;
+}

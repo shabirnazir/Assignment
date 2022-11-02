@@ -1,0 +1,55 @@
+.mainContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 400px;
+  cursor: pointer;
+}
+.lastContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.imageContainer {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.page {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.activePage {
+  padding: 0.5rem;
+  border: 1px solid #0f7ee6;
+  border-radius: 5px;
+  background-color: #0f7ee6;
+  color: white;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.headingContainer {
+  border: 1px solid #ccc;
+  margin: 1rem;
+}
+.rating {
+  display: flex;
+}
